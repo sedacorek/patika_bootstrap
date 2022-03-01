@@ -1,0 +1,30 @@
+.header {
+    margin: auto;
+    font-size: 16px;
+    color: #E9ECEF;
+
+}
+ 
+.navlist {
+    display: inline;
+    color: #E9ECEF;
+    
+}
+
+.jumbotron {
+    background-color: #E9ECEF;
+    text-align: center;
+}
+.list {
+list-style-type: none;
+}
+
+.footer {
+    margin: auto;
+    font-size: 16px;
+    color: #E9ECEF;
+}
+
+.card-body {
+    text-align: center;
+}
