@@ -2,10 +2,10 @@
   text-align: center;
   font-size: 14px;
   color: gray;
-  background-position: 40%;
+  background-image: url(/assets/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 35%;
   background-size: 6%;
-  
-
   
 }
 
@@ -49,19 +49,23 @@ input.empty {
 }
 
 .navbar {
-  height: 54px;
+  height: 56px;
   background-color: white;
 }
 
 .logo {
-  margin-left: 192px;
+  margin-left: 400px;
 }
 
-.card-header {
-  background-color: white;
+.card {
+  margin-top: 2px;
 }
 
-.card-footer {
+.middlearea{
+  height: 200px !important; 
+}
+
+.card-header, .card-footer{
   background-color: white;
 }
 
@@ -70,10 +74,6 @@ input.empty {
 }
 
 .rightpanel {
-  
-  border: none;
-}
-
-.body {
-  background-color: #fafafa;
+  background-color: white;
+  border: 0
 }
